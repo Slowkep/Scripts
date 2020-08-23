@@ -3,6 +3,7 @@
 require 'socket'
 require 'thread'
 require 'timeout'
+#Author: aKa slowkep
 
 host = ARGV[0] #Le proprocionamos un argumento.
 
