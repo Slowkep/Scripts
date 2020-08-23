@@ -1,7 +1,7 @@
 import dns.resolver
 import whois
 
-Author: aKa slowkep
+#Author: aKa slowkep
 
 domain1 = input('Indicar Target 1: ')  # Pedimos input.
 
