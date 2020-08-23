@@ -3,7 +3,7 @@ import time
 import sys
 import threading
 from queue import Queue
-
+#Author: aKa slowkep
 socket.setdefaulttimeout(1)
 print_lock = threading.Lock()
 
