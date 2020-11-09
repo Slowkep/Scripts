@@ -45,3 +45,7 @@ diff checkit.txt amass.txt
 
 #echo "scanning for open ports"
 #nmap -iL probed.txt -T3 -oA scans/scanned.txt
+
+#while read line; do
+#        firefox --new-tab "$line"
+#done < probed.txt
