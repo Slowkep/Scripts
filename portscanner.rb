@@ -11,7 +11,7 @@ def scan(host) #Definimos
   (1..1000).each do |port| #Podemos modificar el rango de puertos, y especificamos para que cada puerto haga..:
     Thread.new {
       begin
-        Timeout.timeout(0.001) do                    # tiempo de timeout
+        Timeout.timeout(0.02) do                    # tiempo de timeout
           s = TCPSocket.new(host, port)            # Crear nuevo socket despues del timeout
           puts "[+] #{host} | Port #{port} open"
           s.close                                  #Cerramos variable
